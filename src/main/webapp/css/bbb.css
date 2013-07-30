@@ -1,0 +1,193 @@
+.bbb-container {
+    border-radius:10px;
+    /*padding:10px;*/
+    height: 575px;
+    width: 620px;
+    line-height: 40px;
+    display: inline-block;
+    margin: 4px;
+    border: 5px solid #dddddd;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);  
+}
+
+.botaoFechar {
+    position: relative;
+    float: right;
+    background-image: url("../img/sprite.png");
+    background-position: 0px -99px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    display:block;
+    text-indent:-9999px;
+    top:-16px;
+    right:-20px;
+    border: 0px;
+    z-index: 3200;
+    /*background-color: white;*/
+}
+
+.bara-topo {
+    background-color: #dddddd;
+    background-repeat: repeat-x;
+    height: 3px;
+    line-height: 3px;
+    padding: 2px;
+    width: 100%;
+}
+
+.bbb-container-center{
+    margin-left: 0px;
+    width: 620px;
+}
+
+.textoVotacao {
+    font-size: small;
+}
+
+.bbb-container-botton{
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #d6d6d6;
+}
+
+#mostrarParedao {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.logo {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
+.foto {
+    width: 280px;
+    height: 290px;
+    line-height: 290px;
+    display: inline-block;
+    margin: 4px;
+    /*border: 1px solid #dddddd;*/
+    /*box-shadow: 0 5px 5px rgba(0, 0, 0, 0.075);*/  
+}
+
+.foto-esquerda {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -10px -150px;
+}
+
+.foto-direita {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -340px -150px;
+}
+
+.foto-esquerda-votos {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -60px -150px;
+}
+
+.foto-direita-votos {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -290px -150px;
+}
+
+.container {
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+}
+
+.foto.selecionada {
+    border: 5px solid #ff9a00;
+}
+
+.centralizado {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#timer{
+    text-align: center;
+    
+    position: relative;
+    top: -20px;
+}
+
+.com-borda{
+    margin: 15px 0;
+    padding: 39px 19px 14px;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.caixa-resumo{
+    width: 480px;
+}
+
+.titulo-caixa{
+    text-align: center;
+}
+
+.foto-menor {
+    width: 200px;
+    height: 210px;
+    line-height: 290px;
+    display: inline-block;
+    margin: 4px;
+    border: 1px solid #dddddd;
+}
+
+.foto-esquerda-menor {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -40px -180px;
+}
+
+.foto-direita-menor {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    background-position: -380px -180px;
+}
+
+#resumoVotacao {
+    width: 900px;
+}
+
+/*grafico de votos*/
+/*#graph {
+  position: relative;
+}*/
+
+#standings {
+  text-align: center;
+  position: relative;
+  top: -237px;
+  text-decoration-color: #ff9a00;
+}
+
+#tempoRestante {
+    text-decoration-color: orange;
+}
