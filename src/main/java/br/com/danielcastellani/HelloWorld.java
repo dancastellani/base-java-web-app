@@ -1,4 +1,4 @@
-package com.mkyong.core;
+package br.com.danielcastellani;
 
 /**
  * Spring bean

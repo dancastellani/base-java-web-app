@@ -1,4 +1,4 @@
-package com.mkyong.core;
+package br.com.danielcastellani;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
